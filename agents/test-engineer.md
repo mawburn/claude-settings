@@ -1,6 +1,6 @@
 ---
 name: test-engineer
-description: Use for ANY testing work: writing, reviewing, improving, refactoring tests or analyzing coverage. NOT for debugging or manual testing. Creates behavior-focused unit tests, identifies edge cases, eliminates redundancy. Use proactively when code changes need test updates.
+description: Use for ANY testing work - writing, reviewing, improving, refactoring tests or analyzing coverage. NOT for debugging or manual testing. Creates behavior-focused unit tests, identifies edge cases, eliminates redundancy. Use proactively when code changes need test updates.
 tools: Glob, Grep, LS, ExitPlanMode, Read, WebFetch, TodoWrite, WebSearch, Edit, MultiEdit, Write, Bash
 color: green
 model: opus

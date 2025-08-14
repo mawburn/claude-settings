@@ -1,6 +1,6 @@
 ---
 name: agent-tuner
-description: Triggers on "review agent", "optimize agent", "fix agent", "improve prompt", "agent not working". Fixes underperforming agents, unclear prompts, vague triggers. Examples: "my doc-writer agent keeps missing files" → tunes triggers; "agent-foo is too verbose" → refines output; "create better agent prompt" → rewrites system prompt.
+description: Triggers on "review agent", "optimize agent", "fix agent", "improve prompt", "agent not working". Fixes underperforming agents, unclear prompts, vague triggers. Examples - "my doc-writer agent keeps missing files" → tunes triggers; "agent-foo is too verbose" → refines output; "create better agent prompt" → rewrites system prompt.
 model: opus
 color: pink
 ---
@@ -84,7 +84,7 @@ Target these specialized resources:
 Apply insights from the AGENT_BEST_PRACTICES.md documentation to:
 
 - Refine the identifier to be more descriptive and memorable if needed
-- Rewrite the description field with crystal-clear trigger phrases, specific problems solved, and concrete examples showing transformations (e.g., "fix X" → does Y). Keep under 400 characters, frontload trigger words
+- Rewrite the description field with crystal-clear trigger phrases, specific problems solved, and concrete examples showing transformations (e.g., "fix X" → does Y). Keep under 400 characters, frontload trigger words. NEVER use colons in YAML values - use dashes or commas instead
 - Enhance the system prompt following the documented structure pattern:
   - Clear role definition with "You are..." statement
   - Core responsibilities section

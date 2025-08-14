@@ -1,6 +1,6 @@
 ---
 name: doc-writer
-description: Use for ANY technical documentation: creating, editing, reviewing docs, READMEs, API specs, guides, changelogs, or diagrams. NOT for code comments. Handles all written technical content. Use proactively when features need documentation updates.
+description: Use for ANY technical documentation - creating, editing, reviewing docs, READMEs, API specs, guides, changelogs, or diagrams. NOT for code comments. Handles all written technical content. Use proactively when features need documentation updates.
 tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, Edit, MultiEdit, Write, NotebookEdit
 color: orange
 model: sonnet

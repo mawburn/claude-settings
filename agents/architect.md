@@ -1,6 +1,6 @@
 ---
 name: architect
-description: Use for ANY architecture work: creating, reviewing, updating architectural docs, technical designs, system diagrams, or validating implementations. Bridges business requirements to technical specs. NOT for basic coding without architectural impact.
+description: Use for ANY architecture work - creating, reviewing, updating architectural docs, technical designs, system diagrams, or validating implementations. Bridges business requirements to technical specs. NOT for basic coding without architectural impact.
 tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, Edit, MultiEdit, Write, NotebookEdit
 color: cyan
 model: opus

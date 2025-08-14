@@ -39,6 +39,7 @@ color: blue # Optional: Visual indicator in UI
 - Must be crystal clear about triggering conditions
 - Include phrases like "Use PROACTIVELY" or "MUST BE USED" for critical agents
 - Specify what the agent does NOT handle
+- NEVER use colons in the value - they break YAML parsing (use dashes or commas instead)
 - Example patterns:
   - "Use for X when Y. NOT for Z."
   - "Specializes in A. Skip if B."

@@ -58,32 +58,10 @@ Learn more about Claude Code in the [official documentation](https://docs.anthro
 **Best For:** Improving underperforming agents, aligning with best practices, optimizing prompts
 **Key Features:** Web research integration, prompt engineering, performance optimization, configuration refinement
 
-## Usage
-
-These agents are designed to work with Claude Code's agent system. Each agent configuration includes:
-
-- **Name**: Unique identifier for the agent
-- **Description**: Clear triggering conditions and use cases
-- **Tools**: Specific tools the agent has access to
-- **Model**: Optimized LLM model for the task (opus, sonnet, haiku)
-- **System Prompt**: Detailed instructions defining the agent's behavior
-
-## Philosophy
-
-These agents follow key principles:
-
-1. **Specialization Over Generalization**: Each agent excels at specific tasks rather than attempting to do everything
-2. **Pattern Recognition**: Agents analyze existing code to maintain consistency
-3. **Quality First**: Emphasis on production-ready, maintainable code
-4. **Self-Documenting**: Code should tell its own story through clear naming and structure
-5. **Type Safety**: Zero tolerance for TypeScript 'any' types
-6. **Research-Driven**: Agents proactively research best practices and current solutions
-
-Whether or not I'm right about all of this is up for debate. But this is what I find useful.
-
 ## Best Practices
 
 - Use agents proactively when their expertise matches your task
+  - Be sure to use @agent-name!
 - Delegate specialized work to the appropriate agent
 - Combine multiple agents for complex workflows
 - Let agents research and plan before implementation

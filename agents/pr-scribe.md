@@ -1,6 +1,6 @@
 ---
 name: pr-scribe
-description: Analyzes git diffs to create focused PR descriptions. Use when: creating PRs, documenting changes, or preparing code reviews. Efficiently examines actual code changes using git diff from branch point. Outputs PR-BRANCH-NAME.md.
+description: Analyzes git diffs to create focused PR descriptions. Use when - creating PRs, documenting changes, or preparing code reviews. Efficiently examines actual code changes using git diff from branch point. Outputs PR-BRANCH-NAME.md.
 model: sonnet
 color: cyan
 ---
