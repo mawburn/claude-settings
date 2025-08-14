@@ -1,31 +1,22 @@
-ide/
-projects/
-shell-snapshots/
-statsig/
-todos/
-settings.json
+# Ignore everything by default
+*
 
-# OS-specific files
+# Whitelist specific files and folders
+!LICENSE
+!agents/
+!agents/**
+!README.md
+!.gitignore
+
+# But still ignore these even if they're in whitelisted folders
 .DS_Store
 Thumbs.db
-
-# Editor directories
-.vscode/
-.idea/
 *.swp
 *.swo
 *~
-
-# Logs
 *.log
-logs/
-
-# Temporary files
 *.tmp
 *.temp
-.cache/
-
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -33,15 +24,4 @@ __pycache__/
 venv/
 env/
 .env
-
-# Node.js
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build outputs
-dist/
-build/
-out/
-target/
