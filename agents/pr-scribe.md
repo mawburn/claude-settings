@@ -68,6 +68,8 @@ Search for issue references using these patterns:
 ### Step 4: Generate Structured Description
 
 ```markdown
+# [A good title for the PR]
+
 - Closes: #ISSUE_NUMBER
 
 ## TL;DR
